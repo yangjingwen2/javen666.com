@@ -62,7 +62,7 @@ RPC（Remote Procedure Call Protocol）远程过程调用协议。服务器A调�
 
 
 ## Dubbo的原理图
-![image](http://dubbo.io/images//dubbo-architecture.png)
+![image](dubbo-1.png)
 
 
 dubbo主要的三个要素：
