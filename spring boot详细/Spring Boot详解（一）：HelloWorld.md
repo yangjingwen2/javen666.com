@@ -85,7 +85,7 @@ Spring Boot项目创建的方式有三种。（其中第三种方式是最简单
 
 2、第一步点击next按钮之后，进入如下界面：
 
-![pringboot-](image\https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-2.png?raw=true)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-2.png?raw=true)
 
 上图的group和artifact可以自行修改（当然也没有默认），然后点击next按钮进入下一步。
 
@@ -150,13 +150,13 @@ public class UserController {
 
 2、执行springboot启动类的main方法。如图：
 
-![pringboot-](image\https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-8.png?raw=true)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-8.png?raw=true)
 
 
 
 3、控制台如下信息则表示启动成功：
 
-![pringboot-](image\https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-7.png?raw=true)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-7.png?raw=true)
 
 注意：如果在最后一行之后，还有error信息则表示启动失败。根据提示修改正确之后，可以再重新启动。
 
