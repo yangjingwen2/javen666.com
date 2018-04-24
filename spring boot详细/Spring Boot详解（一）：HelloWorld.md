@@ -12,7 +12,7 @@ Spring Boot项目创建的方式有三种。（其中第三种方式是最简单
 
 纯手工方式不推荐。 不过，如果以下第二、三种方式不能满足你的要求。则按照下图目录结构创建Maven项目：
 
-![pringboot-](image\springboot-4.png)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-4.png?raw=true)
 
 手动添加图上序号3、4所指目录。然后在pom.xml中添加如下内容：
 
@@ -81,21 +81,21 @@ Spring Boot项目创建的方式有三种。（其中第三种方式是最简单
 
 1、打开idea，新建一个项目，进入如下界面：
 
-![pringboot-](image\springboot-1.png)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-1.png?raw=true)
 
 2、第一步点击next按钮之后，进入如下界面：
 
-![pringboot-](image\springboot-2.png)
+![pringboot-](image\https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-2.png?raw=true)
 
 上图的group和artifact可以自行修改（当然也没有默认），然后点击next按钮进入下一步。
 
 3、选择要集成的spring的模块，如下：
 
-![pringboot-](image\springboot-3.png)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-3.png?raw=true)
 
 因为本案例只是演示spring web在spring boot种的使用方式，所以只选择了web（如图箭头处）。之后，点击next按钮（或者finish按钮），等一会，项目就创建完成。  完成之后的项目结构如下：
 
-![pringboot-](image\springboot-4.png)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-4.png?raw=true)
 
 图上序号1：源文件所在的目录，没有什么特别之处。
 
@@ -115,7 +115,7 @@ Spring Boot项目创建的方式有三种。（其中第三种方式是最简单
 
 1、进入如下网站：http://start.spring.io/，如图：
 
-![pringboot-](image\springboot-6.png)
+![pringboot-](https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-6.png?raw=true)
 
 按照上图说明进行配置。最后点击”Generate Project“按钮生成并且下载项目。下载完成之后解压，通过eclipse或者idea打开项目即可。
 
@@ -150,13 +150,13 @@ public class UserController {
 
 2、执行springboot启动类的main方法。如图：
 
-![pringboot-](image\springboot-8.png)
+![pringboot-](image\https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-8.png?raw=true)
 
 
 
 3、控制台如下信息则表示启动成功：
 
-![pringboot-](image\springboot-7.png)
+![pringboot-](image\https://github.com/yangjingwen2/javen666.com/blob/master/spring%20boot%E8%AF%A6%E7%BB%86/image/springboot-7.png?raw=true)
 
 注意：如果在最后一行之后，还有error信息则表示启动失败。根据提示修改正确之后，可以再重新启动。
 
