@@ -6,7 +6,7 @@
 
 缓存的正常使用如图：
 
-![018050717484](images\20180507174845.png)
+![018050717484](https://github.com/yangjingwen2/javen666.com/blob/master/Redis%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F/images/20180507174845.png?raw=true)
 
 如图所示，缓存的使用流程：
 
@@ -16,7 +16,7 @@
 
 这里面就会存在一个BUG，如图：
 
-![018050717495](images\20180507174951.png)
+![018050717495](https://github.com/yangjingwen2/javen666.com/blob/master/Redis%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F/images/20180507174951.png?raw=true)
 
 如图，缓存就像是数据库的一道防火墙，将请求比较频繁的数据放到缓存中，从而减轻数据库的压力。 但是如果有人恶意攻击，那就很轻松的穿透你的缓存，将所有的压力都给数据库。比如上图，你缓存的key都是正整数，但是我偏偏使用负数作为key访问你的缓存，这样就会导致穿透缓存，将压力直接给数据库。
 
@@ -36,7 +36,7 @@
 
 缓存穿透在于一步步规避穿透的原因，如图：
 
-![edis避免缓存穿透的解决方](images\Redis避免缓存穿透的解决方案.png)
+![edis避免缓存穿透的解决方](https://github.com/yangjingwen2/javen666.com/blob/master/Redis%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F/images/Redis避免缓存穿透的解决方案.png?raw=true)
 
 如上图所示，解决的步骤如下：
 
