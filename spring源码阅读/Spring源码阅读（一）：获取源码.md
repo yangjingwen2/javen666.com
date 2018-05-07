@@ -20,7 +20,7 @@ b、下载完毕之后，解压缩就行。
 
 1、打开idea的“settings”窗口，查找gradle配置，如下图：
 
-![018050414055](images\20180504140557.png)
+![018050414055](https://github.com/yangjingwen2/javen666.com/blob/master/spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/images/20180504140557.png?raw=true)
 
 2、如上图红色箭头处，配置gradle的路径。之后点击“OK”按钮就行。
 
@@ -32,7 +32,7 @@ b、下载完毕之后，解压缩就行。
 
 Spring源码在Github上。下载地址：https://github.com/spring-projects/spring-framework，如下图：
 
-![018050414240](images\20180504142402.png)
+![018050414240](https://github.com/yangjingwen2/javen666.com/blob/master/spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/images/20180504142402.png?raw=true)
 
 点击绿色按钮，然后再点击“Download ZIP”按钮，等着下载完毕就行。
 
@@ -48,7 +48,7 @@ Spring源码在Github上。下载地址：https://github.com/spring-projects/spr
 
 导入完毕之后如图所示：
 
-![018050414315](images\20180504143151.png)
+![018050414315](https://github.com/yangjingwen2/javen666.com/blob/master/spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/images/20180504143151.png?raw=true)
 
 
 

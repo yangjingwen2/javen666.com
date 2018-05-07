@@ -80,7 +80,9 @@ public class Student {
 
 看源码的过程中，会有很多类和接口。最好使用时序图和类图将关键的步骤绘制出来。我们先来看看Spring初始化Bean解析XML文档的时许图：
 
-![pring加载bean的流](images\spring加载bean的流程.png)
+![pring加载bean的流](https://github.com/yangjingwen2/javen666.com/blob/master/spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/images/spring加载bean的流程.png?raw=true)
+
+
 
 如上图，Spring从ClasspathXMLApplicaltionContext类的初始化开始，一步步执行到XmlBeanDefinitionRader类。在XmlBeanDefinitionRader类中的解析XML的代码如下：
 
@@ -173,7 +175,7 @@ public class Student {
 
 以上代码可以看出，Spring在进行XML配置文档的解析。 因为Spring的配置比较多，所以整个解析过程也是比较复杂，在此不做展开说明。下面附上Spring中XML解析中设计到的主要类的类图：
 
-![018050713564](images\20180507135644.png)
+![018050713564](https://github.com/yangjingwen2/javen666.com/blob/master/spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/images/20180507135644.png?raw=true)
 
 
 

@@ -37,7 +37,9 @@ Spring中的Bean容器可以说就是BeanFactory，BeanFactory有被封装到App
 
 此方法中创建了BeanFactory，并且将BeanFactory传入loadBeanDefinitions方法中，loadBeanDefinitions方法是用来解析XML配置文档。  BeanFactory是用来存放SpringBean对象的容器，BeanFactory的类图如下：
 
-![018050716280](images\20180507162807.png)
+![018050716280](https://github.com/yangjingwen2/javen666.com/blob/master/spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/images/20180507162807.png?raw=true)
+
+
 
 如上图，AbstractBeanFactory类中的getBean方法和doGetBean方法就是Spring中加载Bean的核心方法。其中doGetBean方法内容如下：
 
