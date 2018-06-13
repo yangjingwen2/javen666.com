@@ -2,6 +2,8 @@
 
 #  ![flogo](images\qflogo.png)Java面试题
 
+问题联系QQ：1756229479
+
 ## 一、Java基础篇
 
 ### 1.1、多线程篇
@@ -337,7 +339,7 @@ List继承Collection接口，Map不是。Map没有父类
 
 **其他类**
 
-#### 12、去掉Vector中的一个反复元素
+#### 12、去掉Vector中的一个重复元素
 
 ```java
 import java.util.HashSet;
@@ -353,7 +355,7 @@ veList.add("aa");
 veList.add("bb");
 veList.add("cc");
 
-//去掉Vector中的反复元素方法一:
+//去掉Vector中的重复元素方法一:
 veList=getNewVector(veList);
 //迭代结果
 System.out.println("*********第一种方式********");
@@ -683,101 +685,10 @@ ConcurrentHashMap使用的锁分段技术，首先将数据分成一段一段的
 
 ### 1.3、Java数据结构![flogo](images/qflogo2.png)
 
-#### 1、二叉树实现方式（TreeSet采用的树结构）（代码有BUG待完善）
+#### 1、二叉树实现方式（TreeSet采用的树结构）
 
 ```java
-package com.yang.BitNode;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
-/**
- * Created by 千锋教育 on 2018/5/14.
- */
-public class BitNode {
-    int data;
-    BitNode lchild;
-    BitNode rchild;
-
-    public void setNode(int data,BitNode lc,BitNode rc){
-        this.data = data;
-        lchild = lc;
-        rchild = rc;
-    }
-
-    static int counter = 0;//定义一个静态计数变量
-
-
-    /**
-     * 构造二叉树
-     *
-     * @param root 根节点
-     * @param a 数据源
-     * @param i 计数器
-     * @return 根节点
-     */
-
-    public static BitNode createBiTree(BitNode root, int[] a, int i){
-        if(i<a.length){
-
-            if (i==0) {
-                root.data=a[i];
-                BitNode lchild = new BitNode();
-                BitNode rchild = new BitNode();
-                root.lchild=createBiTree(lchild, a, ++counter);
-                root.rchild = createBiTree(rchild, a, ++counter);
-            } else if (i%2==0){
-                //left
-                BitNode lchild = new BitNode();
-                root.data=a[i];
-                root.lchild=createBiTree(lchild, a, ++counter);
-            } else {
-                //right
-                BitNode rchild = new BitNode();
-                root.data=a[i];
-                root.rchild = createBiTree(rchild, a, ++counter);
-            }
-        }
-
-        return root;
-    }
-
-    // 访问节点
-    public static void visitTNode(BitNode node) {
-        System.out.print(node.data + " ");
-    }
-
-
-
-    // 层次遍历
-    public static void levelTraverse(BitNode root) {
-        Queue<BitNode> queue = new LinkedList<BitNode>();
-
-        queue.offer(root);// 从根节点入队列
-        while (!queue.isEmpty()) {// 在队列为空前反复迭代
-
-            BitNode bitNode = queue.poll();// 取出队列首节点
-            visitTNode(bitNode);
-            System.out.println(bitNode);
-            if (bitNode.lchild != null)
-                queue.offer(bitNode.lchild);// 左孩子入列
-            if (bitNode.rchild != null)
-                queue.offer(bitNode.rchild);// 右孩子入列
-
-        }
-    }
-
-
-    public static void main(String[] args) {
-        BitNode root = new BitNode();
-        int[] a = { 1, 2, 3, 0, 0, 4, 0, 0, 5, 0, 0,6,0, 0,7,0, 0,8,0, 0,63,0, 0,100};
-        root = createBiTree(root, a, counter);
-        levelTraverse(root);
-    }
-
-
-}
-
+代码实现待定
 ```
 
 #### 2、TreeMap中的树结构
@@ -3009,19 +2920,11 @@ BPMN：业务流程建模与标注，包括这些图元如何组合成一个业�
 
 ## 五、项目相关部分![logo](images/qflogo2.png)
 
-#### 1、项目的时间周期问题
-
-#### 2、项目的功能分配问题
-
-#### 3、项目的参与人员问题
-
-#### 4、项目的技术点问题
-
-#### 5、项目可能会被问道的问题
+待完善
 
 
 
 ##六、人事问题汇总![logo](images/qflogo2.png)
 
-
+待完善
 
